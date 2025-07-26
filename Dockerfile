@@ -12,8 +12,8 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["RobloxModerationAPI/RobloxModerationAPI.csproj", "RobloxModerationAPI/"]
-RUN dotnet restore "./RobloxModerationAPI/RobloxModerationAPI.csproj"
+COPY ["RobloxModerationAPI.csproj", "./"]
+RUN dotnet restore "./RobloxModerationAPI.csproj"
 COPY . .
 WORKDIR "/src/RobloxModerationAPI"
 RUN dotnet build "./RobloxModerationAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
