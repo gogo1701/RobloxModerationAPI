@@ -15,7 +15,7 @@ WORKDIR /src
 COPY ["RobloxModerationAPI.csproj", "./"]
 RUN dotnet restore "./RobloxModerationAPI.csproj"
 COPY . .
-WORKDIR "/src/RobloxModerationAPI"
+WORKDIR "/src"
 RUN dotnet build "./RobloxModerationAPI.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
