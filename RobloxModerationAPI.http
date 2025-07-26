@@ -1,0 +1,6 @@
+@RobloxModerationAPI_HostAddress = http://localhost:5039
+
+GET {{RobloxModerationAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

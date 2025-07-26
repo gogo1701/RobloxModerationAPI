@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "RobloxModerationAPI.ModerationControllers.ModerationController",
+    "Method": "ModeratePlayer",
+    "RelativePath": "Moderation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "RobloxModerationAPI.Models.PlayerModeration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobloxModerationAPI.ModerationControllers.ModerationController",
+    "Method": "Ping",
+    "RelativePath": "Moderation/ping",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobloxModerationAPI.ModerationControllers.ModerationController",
+    "Method": "GetUserLogs",
+    "RelativePath": "Moderation/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobloxModerationAPI.ModerationControllers.ModerationController",
+    "Method": "DeleteUserLogs",
+    "RelativePath": "Moderation/user/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RobloxModerationAPI.ModerationControllers.ModerationController",
+    "Method": "CheckUserBan",
+    "RelativePath": "Moderation/user/{userId}/ban",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
