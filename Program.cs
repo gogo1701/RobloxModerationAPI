@@ -24,7 +24,7 @@ namespace RobloxModerationAPI
                 {
                     var ip = httpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
 
-                    return RateLimitPartition.GetFixedWindowLimiter(ip, _ => new FixedWindowRateLimiterOptions(
+                    return RateLimitPartition.GetFixedWindowLimiter(ip, _ => new FixedWindowRateLimiterOptions
                     {
                         PermitLimit = 10,
                         Window = TimeSpan.FromMinutes(1),

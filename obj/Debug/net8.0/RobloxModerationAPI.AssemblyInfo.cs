@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RobloxModerationAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abedb5f187a9ab52eb3c8a5e8d6330d449ce43b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("RobloxModerationAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RobloxModerationAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
